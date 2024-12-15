@@ -1,0 +1,80 @@
+@keyframes color-change1 {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+  
+    25% {
+        color: rgb(233, 255, 33);
+    }
+  
+    75% {
+        color: rgb(0, 255, 0);
+    }
+    100% {
+        color: rgb(255, 0, 0);
+    }
+}
+
+@keyframes color-change2 {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+  
+    15% {
+        color: rgb(253, 135, 0);
+    }
+  
+    30% {
+        color: rgb(238, 255, 0);
+    }
+    45% {
+        color: rgb(0, 255, 0);
+    }
+    60% {
+        color: rgb(0, 195, 255);
+    }
+    75% {
+        color: rgb(0, 0, 255);
+    }
+    90% {
+        color: rgb(119, 0, 255);
+    }
+    100% {
+        color: rgb(255, 0, 0);
+    }
+}
+
+@keyframes color-change3 {
+    0% {
+        background-color: rgb(46, 46, 46);
+    }
+  
+    25% {
+        background-color: rgb(51, 51, 51);
+    }
+  
+    50% {
+        background-color: rgb(46, 46, 46);
+    }
+    75% {
+        background-color: rgb(41, 41, 41);
+    }
+    100% {
+        background-color: rgb(46, 46, 46);
+    }
+}
+
+
+h1 {
+    animation: color-change1 20s infinite;
+}
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 25px; /* Размер основного шрифта в <p></p>  */
+    background-color: #171729; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */ 
+    animation: color-change3 3s infinite;
+}
+h2{
+    animation: color-change2 10s infinite;
+}
